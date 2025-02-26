@@ -1,7 +1,6 @@
 import streamlit as st
 from dotenv import load_dotenv
-import pdfprocessor as iu
-import io
+import pdfprocessor as pdf_p
 
 
 def main():
@@ -25,7 +24,7 @@ def main():
             st.warning("Please enter a query.")
         else:
             with st.spinner('Processing...'):
-                extracted_data = iu.create_docs(pdf_files, user_query)
+                extracted_data = pdf_p.create_docs(pdf_files, user_query)
                 st.write(extracted_data)
 
             st.success("Extraction completed successfully!")
