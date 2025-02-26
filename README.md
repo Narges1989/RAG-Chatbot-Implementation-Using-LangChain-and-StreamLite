@@ -34,11 +34,11 @@ Ensure you have all necessary packages installed by running:
 pip install -r requirements.txt
 
 To start the Streamlit app, execute the following command in your terminal:
-**streamlit run .\ui_rag.py**
+streamlit run .\ui_rag.py
 
 Once executed, the application will launch automatically. Open the following URL in your browser:
 
-**http://localhost:8501/**
+http://localhost:8501/
 
 
 
