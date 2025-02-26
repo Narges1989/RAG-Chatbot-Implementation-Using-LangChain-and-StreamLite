@@ -33,7 +33,8 @@ Ensure you have all necessary packages installed by running:
 pip install -r requirements.txt
 
 ### 4. Excecute Chatbot App
-To start the Streamlit app, execute the following command in your terminal:
+To start the Streamlit app, execute the following command in the terminal:
+
 streamlit run .\ui_rag.py
 
 ### 5. Launch Web Application
