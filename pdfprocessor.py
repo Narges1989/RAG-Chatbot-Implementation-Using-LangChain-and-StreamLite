@@ -13,7 +13,7 @@ def create_docs(user_pdf_list, user_query):
     extracted_answers = []
 
     # Load API Key securely
-    open_api_key = "sk-5poPYRkEZzZMn6L7UKjKwaJtMbkwzTPsP8MMTPWkS5T3BlbkFJk2JKZYk6oduRSufbZ-y0h6mjKGBpcio_udCW5FyssA"
+    open_api_key = "OpenAIkey"
 
     if not open_api_key:
         raise ValueError("OpenAI API key is missing! Set it in your .env file.")
