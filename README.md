@@ -30,12 +30,13 @@ Before setting up the project, ensure you have the following:
 ### 3. Install Dependencies
 Ensure you have all necessary packages installed by running:
 
-```bash
 pip install -r requirements.txt
 
+### 4. Excecute Chatbot App
 To start the Streamlit app, execute the following command in your terminal:
 streamlit run .\ui_rag.py
 
+### 5. Launch Web Application
 Once executed, the application will launch automatically. Open the following URL in your browser:
 
 http://localhost:8501/
